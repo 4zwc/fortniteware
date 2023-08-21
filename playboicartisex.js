@@ -82,7 +82,7 @@ function dropDown() {
 
 //Video volume
 document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("video").volume = 0.8;
+  document.getElementById("video").volume = 1.0;
 });
 
 
