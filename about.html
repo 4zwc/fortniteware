@@ -1,0 +1,78 @@
+<html>
+<head>
+  <title>fnw.lol</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <title>fnw.lol</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="clickToPlay">
+    <span class="center">enter</span>
+  </div>
+
+  <div id="backContainer" style="display: none; position: absolute; text-align: center; bottom: 20px; width: 100%;">
+    <a id="mainLink" href="index.html" style="text-align: center; font-size: 2em;">go back</a>
+  </div>
+
+  <script>
+    const clickToPlay = document.getElementById("clickToPlay");
+    const newsContainer = document.getElementById("backContainer");
+    const newsLink = document.getElementById("mainLink");
+
+    clickToPlay.addEventListener("click", function() {
+      newsContainer.style.display = "block";
+    });
+
+    newsLink.addEventListener("click", function(event) {
+      event.preventDefault(); 
+      window.location.href = newsLink.getAttribute("href"); 
+    });
+  </script>
+
+  <div id="main">
+    <div class="banner-container">
+      <div class="banner">
+        <pre>
+
+
+$$$$$$\                               $$\           $$\ 
+$$  __$$\                             $$ |          $$ |
+$$ /  \__|$$$$$$$\  $$\  $$\  $$\     $$ | $$$$$$\  $$ |
+$$$$\\    $$  __$$\ $$ | $$ | $$ |    $$ |$$  __$$\ $$ |
+$$  _|    $$ |  $$ |$$ | $$ | $$ |    $$ |$$ /  $$ |$$ |
+$$ |      $$ |  $$ |$$ | $$ | $$ |    $$ |$$ |  $$ |$$ |
+$$ |      $$ |  $$ |\$$$$$\$$$$  |$$\ $$ |\$$$$$$  |$$ |
+\__|      \__|  \__| \_____\____/ \__|\__| \______/ \__|
+			  
+                  "you guys are back?"
+    No, we aren't. This is more of a legacy kinda thing i made.
+  fnw will not be coming back due to drama and the falling of our 
+  members. I had this site in the works for a year and i only decided
+  to pick it back up because i figured "i still have the domain" 
+  we no longer associate with one another. - nocta
+					
+
+
+
+
+			</pre>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+  <video autoplay loop id="video">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+  <script src="playboicartisex.js"></script>
+  <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool/disable-devtool.min.js'></script>
+<script cursor src="cursor.html"></script>
+</body>
+
+</html>
